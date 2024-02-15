@@ -1,0 +1,100 @@
+{
+  "registration": [
+    {
+      "firstName": "dfd",
+      "lastName": "dfdfdg",
+      "email": "v33@gmail.com",
+      "password": "Raut@1234",
+      "status": false,
+      "id": 42
+    },
+    {
+      "firstName": "dfd",
+      "lastName": "dfdfdg",
+      "email": "p33@gmail.com",
+      "password": "Raut@1234",
+      "status": false,
+      "id": 43
+    },
+    {
+      "firstName": "roshan",
+      "lastName": "rangari",
+      "email": "roshan@gmail.com",
+      "password": "Rangari@123",
+      "status": false,
+      "id": 44
+    },
+    {
+      "firstName": "shrikrushan",
+      "lastName": "shinde",
+      "email": "shri123@gmail.com",
+      "password": "Shree@123",
+      "status": false,
+      "id": 45
+    },
+    {
+      "firstName": "Pd",
+      "lastName": "dudhat",
+      "email": "pd@gmail.com",
+      "password": "Raut@1234",
+      "status": false,
+      "id": 46
+    },
+    {
+      "firstName": "praful",
+      "lastName": "raut",
+      "email": "p22@gmail.com",
+      "password": "Raut@1234",
+      "status": false,
+      "id": 47
+    },
+    {
+      "firstName": "kaushal",
+      "lastName": "kumar",
+      "email": "kumar12@gmail.com",
+      "password": "Kumar@123",
+      "status": false,
+      "id": 48
+    },
+    {
+      "firstName": "atul",
+      "lastName": "ghate",
+      "email": "atul11@gmail.com",
+      "password": "Ghate@123",
+      "status": false,
+      "id": 49
+    },
+    {
+      "firstName": "rahul",
+      "lastName": "raut",
+      "email": "rahul@123gmail.com",
+      "password": "Rahul@123",
+      "status": false,
+      "id": 50
+    },
+    {
+      "firstName": "yash",
+      "lastName": "raut",
+      "email": "yash@22gmail.com",
+      "password": "Yash@1234",
+      "status": false,
+      "id": 51
+    },
+    {
+      "firstName": "Piyush",
+      "lastName": "Dudhat",
+      "email": "pd@gmail.com",
+      "password": "Piyush@1234",
+      "status": false,
+      "id": 52
+    },
+    {
+      "firstName": "dfd",
+      "lastName": "fdf",
+      "email": "rd#@gmail.com",
+      "password": "Raut@1234",
+      "status": false,
+      "id": 53
+    }
+  ]
+}

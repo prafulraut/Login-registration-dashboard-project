@@ -1,0 +1,53 @@
+<div class="d-flex mainDiv">
+    <div class="img-div">
+        <img src="../../../assets/img/backgroundImg.jpg" alt="">
+    </div>
+    <div class="form-div">
+        <div class="dialog-content">
+            <h1>
+                <strong>Login</strong>
+            </h1>
+            <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                <div>
+                    <label for="">Email</label>
+                </div>
+                <div>
+                    <mat-form-field appearance="outline">
+                        <input type="email" matInput formControlName="email" placeholder="Enter email">
+                        <mat-error *ngIf="loginForm.get('email')?.hasError('required')">
+                            Email is required
+                        </mat-error>
+                        <mat-error *ngIf="loginForm.get('email')?.hasError('email')">
+                            Please enter a valid email address
+                        </mat-error>
+                        <mat-error *ngIf="loginForm.get('email')?.hasError('emailNotFound')">Invalid Email </mat-error>
+                    </mat-form-field>
+                </div>
+
+                <div>
+                    <label for="">Password</label>
+                </div>
+                <div>
+                    <mat-form-field appearance="outline">
+                        <input type="password" matInput formControlName="password" placeholder="Enter password">
+                        <mat-error *ngIf="loginForm.get('password')?.hasError('required')">
+                            Password is required
+                        </mat-error>
+                        <mat-error *ngIf="loginForm.get('password')?.hasError('pattern')">
+                            Please enter a valid password
+                        </mat-error>
+                        <mat-error *ngIf="loginForm.get('password')?.hasError('passwordNotFound')">Invalid Password </mat-error>
+                    </mat-form-field>
+                </div>
+                <div mat-dialog-actions>
+                    <a class="forget-password" routerLink="/forgot-password">Forgot Password?</a>
+                    <button mat-raised-button type="submit" class="btn-color">Sign In</button>
+                    <div class="sign">
+                        <span>Not a member</span>
+                        <a routerLink="/registration"> ? Sign up now</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

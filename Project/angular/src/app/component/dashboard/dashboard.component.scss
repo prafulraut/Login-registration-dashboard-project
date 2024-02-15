@@ -1,0 +1,34 @@
+$color_1: white;
+$background-color_1: black;
+
+.wrapper {
+  margin: 50px;
+}
+
+.table-color {
+  background-color: $background-color_1 !important;
+  color: $color_1;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.example-container {
+  width: 100%;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.actions-header {
+  text-align: center;
+}
+
+.btn-logout {
+  float: right;
+}
+
+.progress-spinner {
+  display: flex;
+  justify-content: center;
+}

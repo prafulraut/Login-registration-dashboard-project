@@ -1,0 +1,111 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+$color_1: #fff;
+$background-color_1: #c15722;
+$background-color_2: rgb(199, 88, 88);
+
+.mainDiv {
+  max-height: 100vh !important;
+}
+
+.img-div {
+  width: 50%;
+  height: 100%;
+}
+
+img {
+  height: 100vh;
+  width: 100%;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+a {
+  text-decoration: none !important;
+  color: $background-color_1 !important;
+}
+
+.btn-color {
+  width: 100%;
+  background-color: $background-color_1 !important;
+  color: $color_1 !important;
+}
+
+.form-div {
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.dialog-content {
+  width: 80%;
+}
+
+.sign {
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.forget-password {
+  float: right;
+  text-align: right;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.btn-resend {
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  img {
+    display: none;
+    visibility: hidden;
+    display: block;
+  }
+  .img-div {
+    width: 0;
+  }
+  .form-div {
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dialog-content {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .forget-password {
+    text-align: right;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .sign {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+.user-exit {
+  background-color: $background-color_2;
+  text-align: center;
+  color: white;
+}
